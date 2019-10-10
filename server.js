@@ -16,6 +16,7 @@ app.get('/user', function (req, res) {
 
 app.post('/user', function (req, res) {
     console.log(req.body)
+    console.log(req.body.username)
     res.send(req.body)
 })
 
